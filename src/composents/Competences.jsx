@@ -9,7 +9,7 @@ const Competences = () => {
         { id:4 , titre : "Laravel" , duree: 2  },
         { id:5 , titre : "Angular" , duree: 1  },
         { id:6 , titre : "Bootstrap" , duree: 2  },
-        { id:7 , titre : "C" , duree: 1  },
+        { id:7 , titre : "React" , duree: 1  },
         { id:8 , titre : "Office" , duree: 3  },
     ]
 
