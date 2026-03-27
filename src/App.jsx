@@ -6,6 +6,7 @@ import Projets from './pages/Projets'
 import NotFound from './pages/NotFound'
 import About from './composents/About'
 import Formulaire from './pages/Formulaire'
+import Details from './pages/Details'
 
 
 
@@ -21,6 +22,7 @@ function App() {
             { path:"/projets" , element: <Projets/> },
             { path:"/about" , element: <About/> },
             { path: "/formulaire", element: <Formulaire/> },
+            { path: "/projet/:id", element: <Details/> },
       ]
     },
     { path:"*" , element: <NotFound/> },

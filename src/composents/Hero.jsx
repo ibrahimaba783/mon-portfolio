@@ -11,7 +11,7 @@ const Hero = () => {
          <div className="box_hero">
              <div className="hero_gauche">
                 <h1>Je suis Ibrahima ba </h1>
-                 <h2>Etudiant</h2>
+                 <h2>Etudiant en Développement Web & Mobile</h2>
                  <p>
                    Développeur en devenir, déterminé à maîtriser les technologies modernes pour devenir un expert du logiciel.
                  </p>

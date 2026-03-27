@@ -19,10 +19,9 @@ const About = () => {
           </div>
           <div className="about_intro">
             <h2>Ibrahima BA</h2>
-            <span className="about_titre">Etudiant en Informatique</span>
+            <span className="about_titre">Etudiant en Developpement Web & Mobile</span>
             <p>
-              Etudiant motivé en Informatique, je souhaite développer mes compétences
-              en programmation afin de construire une carrière d'ingénieur logiciel.
+             Développeur en devenir, déterminé à maîtriser les technologies modernes pour devenir un expert du logiciel.
             </p>
           </div>
         </div>
