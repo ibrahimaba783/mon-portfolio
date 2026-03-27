@@ -5,9 +5,9 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
        <Navbar/>
-         <main>
+         <main style={{ flex: 1 }}>
             <Outlet/>
          </main>
        <Footer/>
@@ -16,28 +16,3 @@ const Layout = () => {
 }
 
 export default Layout
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -113,10 +113,25 @@ nav {
 }
 
 nav .logo {
-  height: 60px;
-  width: 80px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  font-size: 28px;
   font-weight: bold;
-  object-fit: contain;
+}
+
+.logo_crochet {
+  color: goldenrod;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo_nom {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 /* lien */
@@ -1115,8 +1130,7 @@ footer {
 
 .detail {
   padding: 40px;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: calc(100vh - 8vh - 10vh);
   color: white;
 }
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import logo from '../assets/images/logo.png'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
@@ -10,7 +9,12 @@ const Navbar = () => {
 
   return (
     <nav> 
-        <img className='logo' src={logo} alt="" srcSet="" />
+        {/* logo texte stylé */}
+        <div className="logo" onClick={() => navigate('/')}>
+          <span className="logo_crochet">&lt;</span>
+          <span className="logo_nom">IB</span>
+          <span className="logo_crochet">/&gt;</span>
+        </div>
 
         {/* menu normal desktop */}
         <div className="lien">
@@ -32,7 +36,7 @@ const Navbar = () => {
             <NavLink to="/" onClick={() => setMenuOpen(false)}><p>Accueil</p></NavLink>
             <NavLink to="/projets" onClick={() => setMenuOpen(false)}><p>Projets</p></NavLink>
             <NavLink to="/contact" onClick={() => setMenuOpen(false)}><p>Contact</p></NavLink>
-            <p onClick={() => { navigate('/about'); setMenuOpen(false) }}>About</p>
+            <NavLink to="/about" onClick={() => setMenuOpen(false)}><p>À propos</p></NavLink>
           </div>
         )}
     </nav>
