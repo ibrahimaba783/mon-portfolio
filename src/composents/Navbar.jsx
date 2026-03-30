@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
+
 const Navbar = () => {
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false)

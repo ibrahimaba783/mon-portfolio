@@ -108,7 +108,11 @@ nav {
   padding: 20px 30px;
   height: 8vh;
   color: white;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
  
 }
 
@@ -138,6 +142,7 @@ nav .logo {
 .lien {
   display: flex;
   gap: 50px;
+  margin-left: 20px;
 }
 
 .lien p {
@@ -179,6 +184,7 @@ nav .logo {
 
   .lien {
     display: none;
+    
   }
 
   .about {
@@ -278,7 +284,7 @@ nav .logo {
 
 .hero_gauche p {
   width: 55%;
-  margin-top: 20px;
+  margin-top: 5px;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
 }
@@ -360,6 +366,7 @@ nav .logo {
 
   .hero_gauche p {
     width: 100%;
+    
   }
 
   .hero_btn {
